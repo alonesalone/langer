@@ -1,0 +1,16 @@
+[
+    {
+        "caliente": "sıcak",
+        "palabra": "kelime",
+        "tiempo": "zaman",
+        "hambre": "açlık",
+        "comida": "yemek",
+        "olor": "korku",
+        "grande": "büyük"
+    }, 
+
+    {
+        "lang1": "Yukarıdaki kelimenin İspanyolcası nedir?",
+        "lang2": "Yukarıdaki kelimenin Türkçesi nedir?"
+    }
+]
