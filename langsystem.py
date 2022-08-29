@@ -12,8 +12,8 @@ class Language:
     def getFile(self):
         if self.filePath:
             return self.filePath
-        else:
-            return os.path.join(current_dir, "words_list.json")
+
+        return os.path.join(current_dir, "words_list.json")
 
     def openFile(self):
         with open(self.getFile(), "r", encoding="utf-8") as w_list:
