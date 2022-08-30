@@ -87,7 +87,6 @@ class LangerProgram(QtWidgets.QMainWindow):
 
         self.lang = Language()
         self.lang.filePath = self.filePath
-        self.lang.getFile()
         self.lang.openFile()
 
         self.new_word = self.lang.randomChoice()
