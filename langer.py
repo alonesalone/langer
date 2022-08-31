@@ -108,7 +108,6 @@ class LangerProgram(QtWidgets.QMainWindow):
         else:
             pass
         
-        print(self.lang.words_list)
 
         if not self.inOrder:
             self.new_word = self.lang.randomChoice()
@@ -116,8 +115,6 @@ class LangerProgram(QtWidgets.QMainWindow):
         elif self.inOrder:
             if len(list(self.lang.orderWords_list.keys())) > 0:
                 self.new_word = self.lang.choiceInOrder()
-                print(self.new_word)
-                print(self.lang.orderWords_list)
             
             else:
                 self.order_over = Ui_order_over()
